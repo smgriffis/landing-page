@@ -100,22 +100,29 @@ h6 {
     font-size: 36px;
     font-weight: extra-bold;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 #service-info {
     max-width: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    margin-top: -50px;
+}
+
+li {
+    text-align: center;
 }
 
 
 .info-box {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
         border-radius: 7px;
         margin: 10px;
-        border-color: 5px solid blue;
-        background-color: white;
+        border: 5px solid #3882F6;
     }
 
 .service-info > li {
